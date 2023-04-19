@@ -5,12 +5,12 @@ public class Variables {
         Double price = 699.99;
         boolean isAvailable = true;
 
-        System.out.println("Product name: "+productName);
-        System.out.println("Quantity: "+quantity);
-        System.out.println("Price: "+price);
-        if(isAvailable) {
+        System.out.println("Product name: " + productName);
+        System.out.println("Quantity: " + quantity);
+        System.out.println("Price: " + price);
+        if (isAvailable) {
             System.out.println("Product is Available");
-        }else {
+        } else {
             System.out.println("Product is Not Available");
         }
     }
